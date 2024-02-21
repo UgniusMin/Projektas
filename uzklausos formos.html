@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzklausos forma</title>
+</head>
+<nav>
+    <a href="./index.html#keliones">Kelioniu pasiulymai |</a>
+    <a href="./index.html#autonuoma">Autonuoma |</a>
+    <a href="./index.html#patarimai">Patarimai keliaujantiems |</a>
+    <a href="./index.html#zurnalas">Kelioniu zurnalas |</a>
+</nav>
+<body>
+    <header>
+        <h1>Uzklausos forma</h1>
+    </header>
+    <main>
+        <form>
+            <legend>Forma</legend>
+            <div>
+                <label>Vardas:.</label>
+                <input type="text" id="vardas" name="vardas" placeholder="vardas" required/>
+                <label>Email:.</label>
+                <input type="text" id="email" name="email" placeholder="vardas" required/>
+            </div>
+            <div>
+                <label>Telefono numeris:.</label>
+                <input type="tel" id="telefonas" name="telefonas" placeholder="+37056756756724" required/>
+            </div>
+            <div>
+                <label>Data:.</label>
+                <input type="date" id="date" name="date" placeholder="dd-mm-yy" required/>
+            </div>
+            <div>
+                <label>Kuria is duotu transporto priemoniu panadaujote ?</label>
+                <select>
+                    <option>BMW</option>
+                    <option>Volvo</option>
+                    <option>Toyota</option>
+                    <option>volkswagen</option>
+                </select>
+            </div>
+            <div>
+                <label>Lytis:.</label>
+                <label>Vyras:</label>
+                <input type="radio" id="vyras" name="drone" required/>
+                <label>Moteris:</label>
+                <input type="radio" id="moteris" name="drone" required/>
+                <label>Kate:</label>
+                <input type="radio" id="kate" name="drone" required/>
+                <label>Kita:</label>
+                <input type="radio" id="kita" name="drone" required/>
+            </div>
+            <div>
+                <label for="potyriai">Potyriai:.</label>
+                <textarea id="potyriai" name="potyriai" rows="5" cols="20">
+                Ar patiko kelione ir ar galime kazka kitam kartui padaryti geriau ? ...
+                </textarea>
+            </div>
+            <div>
+                <a href="./index.html"><button type="button" id="home" name="home">Home page</button></a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
